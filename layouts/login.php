@@ -98,7 +98,7 @@
 <body>
     <div class="login-container">
         <img src="<?php echo AST; ?>/img/pln.png" alt="Logo PLN">
-        <div class="login-title">Login Sistem</div>
+        <div class="login-title">Login Akun</div>
         <form class="login-form" action="<?php echo URL; ?>/login/proses" method="post">
             <div class="form-group">
                 <label for="email">Email:</label>
