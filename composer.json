@@ -1,0 +1,20 @@
+{
+    "name": "latihan/tugas-pbwl",
+    "description": "latihan pbwl project 10",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Aryautama06",
+            "email": "151792364+Aryautama06@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "filp/whoops": "^2.14"
+    }
+}

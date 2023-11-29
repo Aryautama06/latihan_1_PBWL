@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #0057a0, #003366); /* Gradient color for the sidebar */
+    color: #fff;
+    overflow-y: auto; /* Allow vertical scrolling if content exceeds the height */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #0057a0, #003366);  /* Same gradient as the sidebar */
+    color: #fff; /* White text color */
+}
+
+.brand {
+    width: 80px;
+}
+
+.user {
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    margin-left: 210px;
+}
+
+article {
+    width: 75%;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+/* Gaya khusus untuk LOGOUT */
+nav li .logout-item {
+    margin-bottom: 100px; /* Menambahkan margin yang lebih besar untuk LOGOUT */
+}
+
+nav a {
+    padding: 15px 20px;
+    margin: 5px 0;
+    display: block;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #155799;
+    color: #fff;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+.info {
+    background-color: #f5f7fa;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 20px !important;
+    border: 3px solid #000000;
+    border-collapse: collapse;
+    width: 1900px;
+}
+
+table th, table td {
+    border: 3px solid #000000; /* Ubah warna garis tepi sel tabel */
+    padding: 12px; /* Padding yang diperbesar untuk keterbacaan yang lebih baik */
+    text-align: center; /* Ratakan teks ke kiri */
+}
+
+table th {
+    background-color: #0057a0; /* Warna latar belakang untuk header */
+    color: #fff; /* Warna teks pada header */
+}
+
+table td {
+    background-color: #ecf0f1; /* Warna latar belakang untuk baris tabel */
+}
+
+/* Efek hover pada baris tabel */
+table tr:hover {
+    background-color: #d4e6f1; /* Warna latar belakang pada hover */
+}
+
+.form-table {
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    max-width: 600px; /* Set the maximum width as per your requirement */
+}
+
+.form-table td {
+    padding: 10px;
+}
+
+.form-table input,
+.form-table select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.form-table input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-table input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.btn {
+    background-color: #3498db;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Warna latar belakang pada hover tombol */
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: #e1e1e1;
+    width: 100%;
+    border-top: 1px solid #d8dadf;
+    color: #333; /* Warna teks abu-abu gelap */
+}
